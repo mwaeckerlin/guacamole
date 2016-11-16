@@ -6,6 +6,7 @@ ENV VNC_OPTIONS "-depth 24 -geometry 1280x752"
 ENV USERS "test:ert456"
 ENV MD5_USERS ""
 ENV PACKAGES ""
+ENV BASEPATH "/guacamole"
 
 EXPOSE 8080
 
